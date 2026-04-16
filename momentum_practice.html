@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physics CBE: Momentum Practice</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4fcf4; }
+        h1 { color: #27ae60; border-bottom: 2px solid #27ae60; padding-bottom: 10px; }
+        .question-card { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .difficulty { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-bottom: 10px; }
+        .easy { background: #d4edda; color: #155724; }
+        .medium { background: #fff3cd; color: #856404; }
+        .hard { background: #f8d7da; color: #721c24; }
+        details { margin-top: 10px; cursor: pointer; }
+        summary { font-weight: bold; color: #27ae60; }
+        .answer { padding: 10px; background: #f9f9f9; border-left: 4px solid #27ae60; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🎾 Momentum Practice</h1>
+
+    <h2>🟢 Easy</h2>
+    <div class="question-card">
+        <span class="difficulty easy">Easy</span>
+        <p><strong>1. Momentum Calc:</strong> A 0.5 kg ball is moving at 10 m/s. What is its momentum?</p>
+        <details><summary>Answer</summary><div class="answer">p = mv = 0.5 * 10 = <strong>5 kg·m/s</strong>.</div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty easy">Easy</span>
+        <p><strong>2. Impulse:</strong> What happens to the momentum of an object when an impulse is applied to it?</p>
+        <details><summary>Answer</summary><div class="answer">The <strong>momentum changes</strong>. Impulse = Change in Momentum.</div></details>
+    </div>
+
+    <h2>🟡 Medium</h2>
+    <div class="question-card">
+        <span class="difficulty medium">Medium</span>
+        <p><strong>3. Collisions:</strong> Two billiard balls collide and bounce off each other perfectly. What kind of collision is this?</p>
+        <details><summary>Answer</summary><div class="answer"><strong>Elastic Collision</strong> (both momentum and kinetic energy are conserved).</div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty medium">Medium</span>
+        <p><strong>4. Impact Time:</strong> Why do cars have crumple zones? (Explain using Impulse = Force * Time).</p>
+        <details><summary>Answer</summary><div class="answer">Crumple zones <strong>increase the time</strong> of the impact. Since the change in momentum is fixed, increasing the time <strong>decreases the impact force</strong> on the passengers.</div></details>
+    </div>
+
+    <h2>🔴 Hard</h2>
+    <div class="question-card">
+        <span class="difficulty hard">Hard</span>
+        <p><strong>5. Recoil:</strong> A 5 kg cannon fires a 0.1 kg ball at 100 m/s. What is the recoil velocity of the cannon?</p>
+        <details><summary>Answer</summary><div class="answer">Total momentum before = 0. After: 0 = (m_cannon * v_cannon) + (m_ball * v_ball).<br>0 = (5 * v_c) + (0.1 * 100) → 5v_c = -10 → v_c = <strong>-2 m/s</strong> (backwards).</div></details>
+    </div>
+</body>
+</html>

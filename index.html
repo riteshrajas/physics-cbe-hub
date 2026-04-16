@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics CBE Study Hub</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; min-height: 100vh; color: #1c1e21; }
+        header { background: #2c3e50; color: white; width: 100%; padding: 40px 0; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        .container { max-width: 900px; width: 95%; margin: 40px auto; padding-bottom: 50px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; text-align: center; border-left: 5px solid #3498db; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        .card h2 { margin: 15px 0 10px; color: #2c3e50; font-size: 1.4rem; }
+        .card p { color: #606770; font-size: 0.95rem; margin-bottom: 20px; flex-grow: 1; }
+        .card-icon { font-size: 2.5rem; }
+        .btn { background: #3498db; color: white; padding: 10px 20px; border-radius: 6px; font-weight: bold; }
+        .study-guide-btn { display: block; width: fit-content; margin: 0 auto 40px; background: #e67e22; color: white; text-decoration: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3); }
+        .study-guide-btn:hover { background: #d35400; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🚀 Physics CBE Study Hub</h1>
+        <p>Interactive practice for Rochester Community Schools Physics Credit By Exam</p>
+    </header>
+
+    <div class="container">
+        <a href="physics_cbe_prep.md" class="study-guide-btn">📂 View Full Text Study Guide (Markdown)</a>
+        
+        <div class="grid">
+            <a href="motion_practice.html" class="card" style="border-left-color: #3498db;">
+                <div class="card-icon">📏</div>
+                <h2>Describing Motion</h2>
+                <p>Speed, Velocity, Acceleration, Displacement, Distance, and Motion Graphs.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="linear_motion_practice.html" class="card" style="border-left-color: #e67e22;">
+                <div class="card-icon">🏹</div>
+                <h2>Linear Motion</h2>
+                <p>Newton's Laws, Weight, Friction, and Projectile Motion.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="circular_motion_practice.html" class="card" style="border-left-color: #9b59b6;">
+                <div class="card-icon">🌌</div>
+                <h2>Circular Motion</h2>
+                <p>Centripetal Force, Gravity, and Universal Gravitation.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="energy_work_practice.html" class="card" style="border-left-color: #f1c40f;">
+                <div class="card-icon">🔋</div>
+                <h2>Energy & Work</h2>
+                <p>Work, KE, PE, Conservation of Energy, and Power.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="momentum_practice.html" class="card" style="border-left-color: #2ecc71;">
+                <div class="card-icon">🎾</div>
+                <h2>Momentum</h2>
+                <p>Momentum, Impulse, and Collision types.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="electrical_forces_practice.html" class="card" style="border-left-color: #f39c12;">
+                <div class="card-icon">⚡</div>
+                <h2>Electrical Forces</h2>
+                <p>Coulomb's Law, Induction, and Conductors.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="electric_current_practice.html" class="card" style="border-left-color: #e74c3c;">
+                <div class="card-icon">🔌</div>
+                <h2>Electric Current</h2>
+                <p>Ohm's Law, Circuits, and Electrical Power.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="magnetism_practice.html" class="card" style="border-left-color: #1abc9c;">
+                <div class="card-icon">🧲</div>
+                <h2>Magnetism</h2>
+                <p>Magnetic Fields, Faraday's Law, and Generators.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+
+            <a href="waves_practice.html" class="card" style="border-left-color: #8e44ad;">
+                <div class="card-icon">🌊</div>
+                <h2>Mechanical Waves</h2>
+                <p>Wave Properties, Transverse vs. Longitudinal Waves.</p>
+                <div class="btn">Start Practice</div>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

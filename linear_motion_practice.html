@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physics CBE: Linear Motion Practice</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f4f8; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px; }
+        .question-card { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .difficulty { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-bottom: 10px; }
+        .easy { background: #d4edda; color: #155724; }
+        .medium { background: #fff3cd; color: #856404; }
+        .hard { background: #f8d7da; color: #721c24; }
+        .formula { font-family: monospace; background: #eee; padding: 2px 5px; }
+        details { margin-top: 10px; cursor: pointer; }
+        summary { font-weight: bold; color: #e67e22; }
+        .answer { padding: 10px; background: #f9f9f9; border-left: 4px solid #e67e22; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🏹 Linear Motion Practice</h1>
+
+    <h2>🟢 Easy</h2>
+    <div class="question-card">
+        <span class="difficulty easy">Easy</span>
+        <p><strong>1. Newton's 2nd Law:</strong> A 10 kg box is pushed with a net force of 50 N. What is the acceleration of the box?</p>
+        <details><summary>Answer</summary><div class="answer">F = ma → a = F/m = 50N / 10kg = <strong>5 m/s²</strong></div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty easy">Easy</span>
+        <p><strong>2. Weight:</strong> What is the weight (force of gravity) of a 5 kg bowling ball on Earth? (g = 9.8 m/s²)</p>
+        <details><summary>Answer</summary><div class="answer">W = mg = 5kg * 9.8 m/s² = <strong>49 N</strong></div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty easy">Easy</span>
+        <p><strong>3. Inertia:</strong> According to Newton's 1st Law, if no net force acts on a moving object, what happens to its velocity?</p>
+        <details><summary>Answer</summary><div class="answer">The object will continue moving with <strong>constant velocity</strong> (same speed and direction) indefinitely.</div></details>
+    </div>
+
+    <h2>🟡 Medium</h2>
+    <div class="question-card">
+        <span class="difficulty medium">Medium</span>
+        <p><strong>4. Friction:</strong> A 20 kg crate is pushed with 100 N of force, but there is 40 N of friction opposing it. What is the acceleration?</p>
+        <details><summary>Answer</summary><div class="answer">F_net = 100N - 40N = 60N.<br>a = F_net / m = 60N / 20kg = <strong>3 m/s²</strong></div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty medium">Medium</span>
+        <p><strong>5. Projectile Launch:</strong> A ball is thrown horizontally off a cliff at 10 m/s. How far does it move horizontally after 3 seconds?</p>
+        <details><summary>Answer</summary><div class="answer">Horizontal velocity is constant. d = v * t = 10 m/s * 3s = <strong>30 meters</strong>.</div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty medium">Medium</span>
+        <p><strong>6. Free-Body Diagram:</strong> An object is falling at its <em>terminal velocity</em>. What is the relationship between the force of gravity and the force of air resistance?</p>
+        <details><summary>Answer</summary><div class="answer">At terminal velocity, acceleration is 0. This means the <strong>force of gravity equals the force of air resistance</strong> (they cancel out).</div></details>
+    </div>
+
+    <h2>🔴 Hard</h2>
+    <div class="question-card">
+        <span class="difficulty hard">Hard</span>
+        <p><strong>7. Action-Reaction:</strong> A bug hits the windshield of a fast-moving bus. Which object experiences a greater force: the bug or the bus? Explain using Newton's 3rd Law.</p>
+        <details><summary>Answer</summary><div class="answer">According to Newton's 3rd Law, the <strong>forces are exactly equal</strong> in magnitude. The bug squashes more because it has much less mass, so it experiences a much higher acceleration.</div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty hard">Hard</span>
+        <p><strong>8. Vertical Projectile:</strong> A rock is dropped from a bridge and hits the water 4 seconds later. How high is the bridge? (Ignore air resistance, g = 9.8 m/s²)</p>
+        <details><summary>Answer</summary><div class="answer">Use d = 1/2 * g * t²<br>d = 0.5 * 9.8 * 4² = 0.5 * 9.8 * 16 = <strong>78.4 meters</strong>.</div></details>
+    </div>
+    <div class="question-card">
+        <span class="difficulty hard">Hard</span>
+        <p><strong>9. Inclined Plane:</strong> A 10 kg block is sitting on a frictionless ramp inclined at 30 degrees. What is the force component pulling it down the ramp? (Hint: F = mg * sinθ)</p>
+        <details><summary>Answer</summary><div class="answer">F_parallel = mg * sin(30°)<br>F = 10kg * 9.8 m/s² * 0.5 = <strong>49 N</strong>.</div></details>
+    </div>
+</body>
+</html>
