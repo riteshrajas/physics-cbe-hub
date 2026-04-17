@@ -14,10 +14,29 @@
         details { margin-top: 10px; cursor: pointer; }
         summary { font-weight: bold; color: #e74c3c; }
         .answer { padding: 10px; background: #f9f9f9; border-left: 4px solid #e74c3c; margin-top: 5px; }
+        .cheat-sheet { background: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .cheat-sheet summary { font-weight: bold; cursor: pointer; color: #2c3e50; font-size: 1.1em; }
+        .cheat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px; padding: 10px; background: #f9f9f9; border-radius: 5px; }
+        .cheat-item { font-family: 'Courier New', monospace; font-size: 0.9em; border-bottom: 1px solid #eee; padding-bottom: 5px; }
     </style>
 </head>
 <body>
     <h1>🔌 Electric Current & Circuits</h1>
+
+    <section class="cheat-sheet">
+        <details>
+            <summary>📐 Formula Cheat Sheet (Quick Reference)</summary>
+            <div class="cheat-grid">
+                <div class="cheat-item"><b>Motion:</b> v = d/t | a = Δv/t | v_f = v_i + at</div>
+                <div class="cheat-item"><b>Forces:</b> F = ma | W = mg | F_f = μF_n</div>
+                <div class="cheat-item"><b>Gravity/Circular:</b> F_g = Gm₁m₂/r² | a_c = v²/r | F_c = mv²/r</div>
+                <div class="cheat-item"><b>Energy:</b> W = Fd | KE = ½mv² | PE = mgh | P = W/t</div>
+                <div class="cheat-item"><b>Momentum:</b> p = mv | J = FΔt = Δp</div>
+                <div class="cheat-item"><b>Electricity:</b> F_e = kq₁q₂/r² | V = IR | P = IV</div>
+                <div class="cheat-item"><b>Waves:</b> v = fλ | T = 1/f</div>
+            </div>
+        </details>
+    </section>
 
     <h2>🟢 Easy</h2>
     <div class="question-card">
