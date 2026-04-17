@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physics CBE: Michigan Standards Ultimate Exam</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #0d1117; color: #e6edf3; }
+        h1 { color: #ff4757; text-align: center; text-transform: uppercase; letter-spacing: 2px; border-bottom: 3px solid #ff4757; padding-bottom: 10px; }
+        .intro { text-align: center; color: #8b949e; margin-bottom: 30px; font-style: italic; }
+        .question-card { background: #161b22; padding: 25px; margin-bottom: 25px; border-radius: 8px; border-left: 5px solid #ff4757; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .standard-tag { background: #30363d; color: #c9d1d9; padding: 3px 8px; border-radius: 3px; font-size: 0.75em; font-family: monospace; float: right; }
+        details { margin-top: 15px; cursor: pointer; }
+        summary { font-weight: bold; color: #58a6ff; font-size: 1.1em; }
+        .answer { padding: 15px; background: #0d1117; border: 1px solid #30363d; border-left: 4px solid #2ea043; margin-top: 10px; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; white-space: pre-wrap; }
+        .cheat-sheet { background: #161b22; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #30363d; }
+        .cheat-sheet summary { color: #d2a8ff; }
+        .cheat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; margin-top: 10px; }
+        .cheat-item { font-family: monospace; font-size: 0.85em; color: #8b949e; border-bottom: 1px solid #30363d; padding-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>🔥 Michigan Standards Ultimate Exam</h1>
+    <p class="intro">Warning: Extreme Difficulty. No theories. No labs. Only pure, multi-step calculations based strictly on the Michigan High School Physics Standards (P4.1 - P4.12x).</p>
+
+    <section class="cheat-sheet">
+        <details>
+            <summary>📐 Ultimate Formula Reference</summary>
+            <div class="cheat-grid">
+                <div class="cheat-item">W = Fd &nbsp;|&nbsp; P = W/t</div>
+                <div class="cheat-item">KE = ½mv² &nbsp;|&nbsp; PE = mgh</div>
+                <div class="cheat-item">v = fλ &nbsp;|&nbsp; I ∝ 1/r² &nbsp;|&nbsp; E ∝ A²f</div>
+                <div class="cheat-item">E = hf &nbsp;|&nbsp; c = 3.0×10⁸ m/s</div>
+                <div class="cheat-item">n₁sin(θ₁) = n₂sin(θ₂)</div>
+                <div class="cheat-item">V = IR &nbsp;|&nbsp; P = IV</div>
+                <div class="cheat-item">Q = mcΔT</div>
+                <div class="cheat-item">E = mc²</div>
+            </div>
+        </details>
+    </section>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.1d / P4.2e</span>
+        <p><strong>1. Work & Energy Transformation:</strong> A skydiver with a total mass of 85 kg is falling at a constant, terminal velocity of 55 m/s. Calculate the exact amount of mechanical energy transformed into thermal energy (work done by air resistance) as the skydiver falls vertically from an altitude of 2,000 meters down to 500 meters.</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Recognize that at a constant terminal velocity, Kinetic Energy ($\Delta$KE) is 0 because velocity isn't changing.
+Step 2: Calculate the change in Gravitational Potential Energy ($\Delta$PE).
+Δh = 2000m - 500m = 1500m
+ΔPE = mgΔh = (85 kg) * (9.8 m/s²) * (1500 m)
+ΔPE = 1,249,500 Joules.
+Step 3: Because total mechanical energy is conserved minus the work done by non-conservative forces (air resistance), all of that lost PE is transformed into thermal energy.
+Work done by air resistance = <strong>1,249,500 J (or ~1.25 MJ)</strong>.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.3e / P4.3f</span>
+        <p><strong>2. Complex Mechanical Systems:</strong> A 500 kg roller coaster car starts from rest at a height of 80 meters. It drops to ground level and then immediately enters a vertical loop. Ignoring all friction and air resistance, what is the exact speed of the car when it reaches the very top of a 50-meter high vertical loop?</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Set up Conservation of Energy between the starting point and the top of the loop.
+Total Energy Initial = Total Energy Final
+PE_initial + KE_initial = PE_top_of_loop + KE_top_of_loop
+mgh_i + 0 = mgh_f + ½mv_f²
+Step 2: Mass (m) cancels out from all terms!
+gh_i = gh_f + ½v_f²
+Step 3: Plug in values and solve for v_f.
+(9.8)(80) = (9.8)(50) + 0.5(v_f)²
+784 = 490 + 0.5(v_f)²
+294 = 0.5(v_f)²
+588 = v_f²
+v_f = √588 = <strong>24.25 m/s</strong>.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.5D / P4.4e</span>
+        <p><strong>3. Wave Intensity & Amplitude:</strong> A point source emits a mechanical wave with an initial intensity $I$ at a distance of 3 meters. If you move to a distance of 15 meters, the intensity decreases according to the inverse square law. Because the energy transferred by a wave is proportional to the square of its amplitude ($E \propto A^2$), what is the exact ratio of the new amplitude to the original amplitude at this new distance?</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Determine the ratio of the distances.
+Distance ratio = 15m / 3m = 5.
+Step 2: Apply the inverse square law for intensity ($I \propto 1/r^2$).
+New Intensity = Original Intensity / (5²) = I / 25.
+Step 3: Relate intensity/energy to amplitude.
+Since Intensity ∝ Amplitude², then Amplitude ∝ √Intensity.
+New Amplitude = √(I / 25) = (1/5) * √I.
+Therefore, the new amplitude is exactly <strong>1/5th (or 0.20)</strong> of the original amplitude.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.r7a</span>
+        <p><strong>4. Quantum Energy Comparison:</strong> Calculate the exact ratio of the energy of a single X-ray photon ($f = 3.0 \times 10^{18}$ Hz) to the energy of a single visible red light photon ($\lambda = 700$ nm). Use $c = 3.0 \times 10^8$ m/s.</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Calculate the frequency of the red light photon.
+f_red = c / λ = (3.0 × 10⁸ m/s) / (700 × 10⁻⁹ m)
+f_red = 4.2857 × 10¹⁴ Hz.
+Step 2: Set up the energy ratio using Planck's equation ($E = hf$).
+Since Planck's constant ($h$) is in both equations, it cancels out!
+Ratio = E_xray / E_red = (h * f_xray) / (h * f_red) = f_xray / f_red
+Step 3: Calculate the final ratio.
+Ratio = (3.0 × 10¹⁸) / (4.2857 × 10¹⁴)
+Ratio = <strong>7,000</strong>.
+(One X-ray photon carries exactly 7,000 times the energy of the red light photon).</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.8e</span>
+        <p><strong>5. Snell's Law & Refraction:</strong> A laser beam passes from diamond ($n = 2.42$) into water ($n = 1.33$). If the angle of incidence inside the diamond is 30.0°, calculate the angle of refraction in the water. Also, calculate the exact speed of the light while it is inside the diamond.</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Part A: Snell's Law (n₁sinθ₁ = n₂sinθ₂)
+(2.42) * sin(30°) = (1.33) * sin(θ₂)
+2.42 * 0.5 = 1.33 * sin(θ₂)
+1.21 = 1.33 * sin(θ₂)
+sin(θ₂) = 1.21 / 1.33 = 0.90977
+θ₂ = arcsin(0.90977) = <strong>65.47°</strong>.
+
+Part B: Speed of light in diamond (n = c/v)
+v = c / n
+v = (3.0 × 10⁸ m/s) / 2.42
+v = <strong>1.24 × 10⁸ m/s</strong>.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.10f / P4.10g</span>
+        <p><strong>6. Complex Circuits & Work:</strong> A circuit contains a 24V battery. A 4Ω and a 12Ω resistor are connected in parallel. This entire parallel combination is then connected in series with a 3Ω resistor. Calculate the total power dissipated by the entire circuit, and calculate the exact work done by the battery in 120 seconds.</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Find the equivalent resistance of the parallel section.
+1/R_p = 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3
+R_p = 3Ω.
+Step 2: Find the total resistance of the circuit (series addition).
+R_total = R_p + R_series = 3Ω + 3Ω = 6Ω.
+Step 3: Calculate total current (Ohm's Law).
+I_total = V / R_total = 24V / 6Ω = 4 Amps.
+Step 4: Calculate Total Power.
+P_total = I * V = 4A * 24V = <strong>96 Watts</strong>.
+Step 5: Calculate Work done by the battery (Work = Power * time).
+W = P * t = 96W * 120s = <strong>11,520 Joules</strong>.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.11b</span>
+        <p><strong>7. Calorimetry & Thermal Equilibrium:</strong> A 0.50 kg block of an unknown metal at 120°C is dropped into a highly insulated calorimeter containing 2.0 kg of water at 20°C. The final equilibrium temperature of the mixture is exactly 25°C. Calculate the specific heat capacity of the unknown metal. ($c_{water} = 4186$ J/kg°C).</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Setup the heat exchange equation. Heat lost by metal = Heat gained by water.
+m_metal * c_metal * ΔT_metal = m_water * c_water * ΔT_water
+Step 2: Calculate temperature changes (ΔT must be positive).
+ΔT_metal = 120°C - 25°C = 95°C
+ΔT_water = 25°C - 20°C = 5°C
+Step 3: Plug in values.
+(0.50 kg) * (c_metal) * (95°C) = (2.0 kg) * (4186 J/kg°C) * (5°C)
+47.5 * c_metal = 41,860
+c_metal = 41,860 / 47.5
+c_metal = <strong>881.26 J/(kg·°C)</strong>.</div>
+        </details>
+    </div>
+
+    <div class="question-card">
+        <span class="standard-tag">P4.12x</span>
+        <p><strong>8. Mass-Energy Conversion:</strong> During a theoretical nuclear fission reaction, exactly 0.05 grams of Uranium mass is completely converted into pure energy. If this energy were captured with 100% efficiency to power a 1,000-Watt microwave oven, exactly how many days would the microwave stay running?</p>
+        <details>
+            <summary>View Rigorous Solution</summary>
+            <div class="answer">Step 1: Convert mass to standard SI units (kilograms).
+m = 0.05 grams = 0.00005 kg = 5.0 × 10⁻⁵ kg.
+Step 2: Calculate total energy using Einstein's equation ($E = mc^2$).
+E = (5.0 × 10⁻⁵ kg) * (3.0 × 10⁸ m/s)²
+E = (5.0 × 10⁻⁵) * (9.0 × 10¹⁶)
+E = 4.5 × 10¹² Joules.
+Step 3: Relate energy to power to find time (P = E/t → t = E/P).
+t = (4.5 × 10¹² Joules) / (1000 Watts)
+t = 4.5 × 10⁹ seconds.
+Step 4: Convert seconds to days.
+t_days = (4.5 × 10⁹ s) / (60 s/min * 60 min/hr * 24 hr/day)
+t_days = (4.5 × 10⁹) / 86,400
+t_days = <strong>52,083.33 Days</strong> (or about 142.7 years).</div>
+        </details>
+    </div>
+
+</body>
+</html>
